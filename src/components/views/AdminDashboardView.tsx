@@ -555,15 +555,25 @@ export const AdminDashboardView: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex items-center space-x-3 shrink-0">
+            <div className="flex flex-wrap items-center gap-2 shrink-0">
               <a
-                href="/wordpress-theme.zip"
+                href="/bofferly-theme.zip"
                 download="bofferly-theme.zip"
                 className="px-5 py-3 bg-amber-400 hover:bg-amber-300 text-emerald-950 font-extrabold rounded-2xl text-xs flex items-center space-x-2 shadow-lg transition-all active:scale-95 cursor-pointer"
               >
                 <Download className="w-4 h-4" />
-                <span>Download bofferly-theme.zip</span>
+                <span>Download bofferly-theme.zip (WP Ready)</span>
               </a>
+            </div>
+          </div>
+
+          <div className="bg-emerald-900/40 p-4 rounded-2xl border border-amber-400/30 flex items-start space-x-3 text-xs text-amber-200">
+            <Check className="w-5 h-5 text-amber-300 shrink-0 mt-0.5" />
+            <div>
+              <p className="font-bold text-amber-300 text-sm">Fixed: "Incompatible Archive / Missing style.css"</p>
+              <p className="text-emerald-200/90 mt-0.5">
+                The ZIP package has been updated so that <code className="bg-black/40 px-1 py-0.5 rounded text-amber-300">style.css</code> is placed directly at the root of the archive. Upload this downloaded <code className="bg-black/40 px-1 py-0.5 rounded text-amber-300">bofferly-theme.zip</code> directly in WordPress under <strong>Appearance &gt; Themes &gt; Add New &gt; Upload Theme</strong> without unzipping!
+              </p>
             </div>
           </div>
 
