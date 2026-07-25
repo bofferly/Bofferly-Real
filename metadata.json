@@ -1,0 +1,8 @@
+{
+  "name": "Bofferly",
+  "description": "Comprehensive Islamic Portal & Learning Platform featuring Quran, Hadith, Tools, Seerah, Fatwa, Media, Directory & Academy",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,72 @@
+import { Mosque } from '../types';
+
+export const MOSQUE_DIRECTORY: Mosque[] = [
+  {
+    id: 'mosque-1',
+    name: 'Al-Masjid an-Nabawi (The Prophet\'s Mosque)',
+    address: 'Al Haram, Madinah 42311',
+    city: 'Madinah',
+    country: 'Saudi Arabia',
+    phone: '+966 14 822 5555',
+    facilities: { wudu: true, womenArea: true, parking: true, wheelchair: true, library: true, classes: true },
+    jumuahTime: '12:30 PM',
+    dailyPrayerTimes: { fajr: '04:25 AM', dhuhr: '12:20 PM', asr: '03:45 PM', maghrib: '07:05 PM', isha: '08:35 PM' },
+    rating: 5.0,
+    reviewsCount: 124500,
+    verified: true,
+    imageUrl: 'https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=800&q=80',
+    lat: 24.4672,
+    lng: 39.6111
+  },
+  {
+    id: 'mosque-2',
+    name: 'Masjid al-Haram (The Grand Mosque)',
+    address: 'Al Haram, Makkah 24231',
+    city: 'Makkah',
+    country: 'Saudi Arabia',
+    phone: '+966 12 574 8888',
+    facilities: { wudu: true, womenArea: true, parking: true, wheelchair: true, library: true, classes: true },
+    jumuahTime: '12:25 PM',
+    dailyPrayerTimes: { fajr: '04:20 AM', dhuhr: '12:18 PM', asr: '03:40 PM', maghrib: '07:00 PM', isha: '08:30 PM' },
+    rating: 5.0,
+    reviewsCount: 250000,
+    verified: true,
+    imageUrl: 'https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&fit=crop&w=800&q=80',
+    lat: 21.4225,
+    lng: 39.8262
+  },
+  {
+    id: 'mosque-3',
+    name: 'East London Mosque & London Muslim Centre',
+    address: '82-92 Whitechapel Rd',
+    city: 'London',
+    country: 'United Kingdom',
+    phone: '+44 20 7650 3000',
+    facilities: { wudu: true, womenArea: true, parking: true, wheelchair: true, library: true, classes: true },
+    jumuahTime: '01:15 PM',
+    dailyPrayerTimes: { fajr: '03:45 AM', dhuhr: '01:10 PM', asr: '05:15 PM', maghrib: '08:45 PM', isha: '10:15 PM' },
+    rating: 4.9,
+    reviewsCount: 3820,
+    verified: true,
+    imageUrl: 'https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=800&q=80',
+    lat: 51.5173,
+    lng: -0.0652
+  },
+  {
+    id: 'mosque-4',
+    name: 'Islamic Center of Washington D.C.',
+    address: '2551 Massachusetts Ave NW',
+    city: 'Washington D.C.',
+    country: 'United States',
+    phone: '+1 202 332 8344',
+    facilities: { wudu: true, womenArea: true, parking: true, wheelchair: true, library: true, classes: true },
+    jumuahTime: '01:30 PM',
+    dailyPrayerTimes: { fajr: '04:45 AM', dhuhr: '01:15 PM', asr: '05:00 PM', maghrib: '08:15 PM', isha: '09:45 PM' },
+    rating: 4.8,
+    reviewsCount: 1450,
+    verified: true,
+    imageUrl: 'https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=800&q=80',
+    lat: 38.9171,
+    lng: -77.0543
+  }
+];

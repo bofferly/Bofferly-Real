@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#021812] text-slate-100 antialiased selection:bg-amber-400 selection:text-emerald-950;
+  }
+}
+
+.glow-amber {
+  box-shadow: 0 0 12px rgba(251, 191, 36, 0.4);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 16px rgba(52, 211, 153, 0.25);
+}
